@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+FR+Moderne:wght@100..400&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+    font-family: "Playwrite FR Moderne", cursive;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.container h2{
+    font-weight: 900;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+.container .form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container .box{
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 15px;
+    height: 30px;
+    width: 250px;
+    margin: 10px;
+    font-family: "Playwrite FR Moderne", cursive;
+    padding: 5px;
+}
+button{
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 15px;
+    width: 100px;
+    margin-top: 20px;
+    font-family: "Playwrite FR Moderne", cursive;
+    font-weight: 900;
+    padding: 3px 3px 3px 3px;
+    background-color: aquamarine;
+    text-decoration: underline;
+}
+#results{
+    margin-top: 20px;
+    color: blueviolet;
+    font-size: large;
+    text-decoration: underline;
+}
+button:hover{
+    transform: scale(1.5);
+    transition: 0.2s ease;
+    margin-bottom: 20px;
+}
+.container .list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.list h3{
+    text-decoration: underline;
+    margin-top: 40px;
+    color: rgb(216, 28, 200);
+}
+.list p{
+    margin: 5px;
+    font-weight: 400;
+}
